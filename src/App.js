@@ -80,7 +80,7 @@ class App extends Component {
     return (
       <StyleRoot>
         <div className="App">
-          <h1>Hello Welcome To React App</h1>
+          <h1>Welcome To React App</h1>
           <p className={classes.join(' ')}>This is Really Working...</p>
           <button style={style} onClick = {this.togglePersonHandler}>Toggle Persons</button>
           {personsShow}
